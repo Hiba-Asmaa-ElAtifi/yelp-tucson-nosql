@@ -1,0 +1,16 @@
+{
+  "dataset": "Yelp Tucson Users",
+  "review_documents": 375076,
+  "tip_documents": 49876,
+  "unique_review_authors": 116319,
+  "unique_tip_authors": 17257,
+  "required_unique_users": 117497,
+  "total_users_read": 1987897,
+  "excluded_not_referenced": 1870400,
+  "selected_users": 117497,
+  "missing_referenced_users": 0,
+  "excluded_fields": [
+    "friends"
+  ],
+  "status": "COMPLETED"
+}
