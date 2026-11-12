@@ -1,0 +1,11 @@
+{
+  "dataset": "Yelp Tucson Business",
+  "total_businesses": 9261,
+  "unique_business_ids": 9261,
+  "errors": {},
+  "warnings": {
+    "missing_attributes": 924,
+    "missing_hours": 1334
+  },
+  "status": "PASS"
+}
