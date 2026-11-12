@@ -1,0 +1,27 @@
+# Yelp data must never be committed or redistributed.
+data/raw/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated results and local database state
+results/raw/
+mongodb_data/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
