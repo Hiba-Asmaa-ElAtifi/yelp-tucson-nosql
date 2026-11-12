@@ -1,0 +1,11 @@
+{
+  "dataset": "Yelp Tucson Tips",
+  "total_tips": 49876,
+  "unique_tip_keys": 49876,
+  "selected_businesses": 9261,
+  "period_start": "2012-01-01",
+  "period_end_exclusive": "2022-01-01",
+  "errors": {},
+  "error_line_examples": {},
+  "status": "PASS"
+}

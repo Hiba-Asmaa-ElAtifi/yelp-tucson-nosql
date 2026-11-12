@@ -1,0 +1,12 @@
+{
+  "dataset": "Yelp Tucson Tips",
+  "period_start": "2012-01-01",
+  "period_end_exclusive": "2022-01-01",
+  "selected_businesses": 9261,
+  "total_read": 908915,
+  "excluded_other_business": 851383,
+  "excluded_outside_period": 7654,
+  "excluded_exact_duplicates": 2,
+  "selected": 49876,
+  "status": "COMPLETED"
+}
