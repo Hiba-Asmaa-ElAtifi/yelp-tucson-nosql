@@ -1,0 +1,15 @@
+{
+  "dataset": "Yelp Tucson Check-ins",
+  "period_start": "2012-01-01",
+  "period_end_exclusive": "2022-01-01",
+  "selected_businesses": 9261,
+  "total_documents_read": 131930,
+  "excluded_other_business": 124041,
+  "tucson_documents_read": 7889,
+  "total_tucson_dates": 772639,
+  "excluded_outside_period": 76811,
+  "selected_dates": 695828,
+  "documents_without_selected_dates": 142,
+  "selected_documents": 7747,
+  "status": "COMPLETED"
+}

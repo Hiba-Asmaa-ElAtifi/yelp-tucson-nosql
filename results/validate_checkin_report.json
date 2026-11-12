@@ -1,0 +1,11 @@
+{
+  "dataset": "Yelp Tucson Check-ins",
+  "total_documents": 7747,
+  "unique_business_ids": 7747,
+  "total_dates": 695828,
+  "period_start": "2012-01-01",
+  "period_end_exclusive": "2022-01-01",
+  "errors": {},
+  "error_line_examples": {},
+  "status": "PASS"
+}
