@@ -1,0 +1,11 @@
+{
+  "dataset": "Yelp Tucson Reviews",
+  "period_start": "2012-01-01",
+  "period_end_exclusive": "2022-01-01",
+  "selected_businesses": 9261,
+  "total_read": 6990280,
+  "excluded_other_business": 6584993,
+  "excluded_outside_period": 30211,
+  "selected": 375076,
+  "status": "COMPLETED"
+}

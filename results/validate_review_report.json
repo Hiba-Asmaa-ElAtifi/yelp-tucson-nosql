@@ -1,0 +1,10 @@
+{
+  "dataset": "Yelp Tucson Reviews",
+  "total_reviews": 375076,
+  "unique_review_ids": 375076,
+  "selected_businesses": 9261,
+  "period": "2012-01-01 to 2021-12-31",
+  "errors": {},
+  "error_line_examples": {},
+  "status": "PASS"
+}
