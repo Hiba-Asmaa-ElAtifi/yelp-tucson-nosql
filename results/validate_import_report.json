@@ -1,0 +1,22 @@
+{
+  "database": "yelp_tucson",
+  "status": "PASS",
+  "expected_counts": {
+    "businesses": 9261,
+    "reviews": 375076,
+    "tips": 49876,
+    "checkins": 7747,
+    "users": 117497
+  },
+  "actual_counts": {
+    "businesses": 9261,
+    "reviews": 375076,
+    "tips": 49876,
+    "checkins": 7747,
+    "users": 117497
+  },
+  "expected_checkin_dates": 695828,
+  "actual_checkin_dates": 695828,
+  "errors": {},
+  "error_examples": []
+}
