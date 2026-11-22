@@ -1,0 +1,17 @@
+﻿{
+  isWritablePrimary: true,
+  topologyVersion: {
+    processId: ObjectId('6b02fd0ff8fdeeaa61a63a0d'),
+    counter: Long('0')
+  },
+  maxBsonObjectSize: 16777216,
+  maxMessageSizeBytes: 48000000,
+  maxWriteBatchSize: 100000,
+  localTime: ISODate('2026-11-22T16:15:59.333Z'),
+  logicalSessionTimeoutMinutes: 30,
+  connectionId: 2978,
+  minWireVersion: 0,
+  maxWireVersion: 25,
+  readOnly: false,
+  ok: 1
+}

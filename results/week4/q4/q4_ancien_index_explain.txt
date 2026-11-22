@@ -1,0 +1,179 @@
+﻿{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'yelp_tucson.reviews',
+    parsedQuery: {
+      business_id: {
+        '$eq': 'UCMSWPqzXjd7QHq7v8PJjQ'
+      }
+    },
+    indexFilterSet: false,
+    queryHash: 'D7B4FBCB',
+    planCacheShapeHash: 'D7B4FBCB',
+    planCacheKey: 'A66764AA',
+    optimizationTimeMillis: 0,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'SORT',
+      sortPattern: {
+        date: -1,
+        _id: 1
+      },
+      memLimit: 104857600,
+      limitAmount: 5,
+      type: 'simple',
+      inputStage: {
+        stage: 'FETCH',
+        inputStage: {
+          stage: 'IXSCAN',
+          keyPattern: {
+            business_id: 1,
+            date: -1
+          },
+          indexName: 'idx_reviews_business_date',
+          isMultiKey: false,
+          multiKeyPaths: {
+            business_id: [],
+            date: []
+          },
+          isUnique: false,
+          isSparse: false,
+          isPartial: false,
+          indexVersion: 2,
+          direction: 'forward',
+          indexBounds: {
+            business_id: [
+              '["UCMSWPqzXjd7QHq7v8PJjQ", "UCMSWPqzXjd7QHq7v8PJjQ"]'
+            ],
+            date: [
+              '[MaxKey, MinKey]'
+            ]
+          }
+        }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 5,
+    executionTimeMillis: 21,
+    totalKeysExamined: 2223,
+    totalDocsExamined: 2223,
+    executionStages: {
+      isCached: false,
+      stage: 'SORT',
+      nReturned: 5,
+      executionTimeMillisEstimate: 15,
+      works: 2230,
+      advanced: 5,
+      needTime: 2224,
+      needYield: 0,
+      saveState: 1,
+      restoreState: 1,
+      isEOF: 1,
+      sortPattern: {
+        date: -1,
+        _id: 1
+      },
+      memLimit: 104857600,
+      limitAmount: 5,
+      type: 'simple',
+      totalDataSizeSorted: 3972,
+      usedDisk: false,
+      spills: 0,
+      spilledDataStorageSize: 0,
+      inputStage: {
+        stage: 'FETCH',
+        nReturned: 2223,
+        executionTimeMillisEstimate: 14,
+        works: 2224,
+        advanced: 2223,
+        needTime: 0,
+        needYield: 0,
+        saveState: 1,
+        restoreState: 1,
+        isEOF: 1,
+        docsExamined: 2223,
+        alreadyHasObj: 0,
+        inputStage: {
+          stage: 'IXSCAN',
+          nReturned: 2223,
+          executionTimeMillisEstimate: 10,
+          works: 2224,
+          advanced: 2223,
+          needTime: 0,
+          needYield: 0,
+          saveState: 1,
+          restoreState: 1,
+          isEOF: 1,
+          keyPattern: {
+            business_id: 1,
+            date: -1
+          },
+          indexName: 'idx_reviews_business_date',
+          isMultiKey: false,
+          multiKeyPaths: {
+            business_id: [],
+            date: []
+          },
+          isUnique: false,
+          isSparse: false,
+          isPartial: false,
+          indexVersion: 2,
+          direction: 'forward',
+          indexBounds: {
+            business_id: [
+              '["UCMSWPqzXjd7QHq7v8PJjQ", "UCMSWPqzXjd7QHq7v8PJjQ"]'
+            ],
+            date: [
+              '[MaxKey, MinKey]'
+            ]
+          },
+          keysExamined: 2223,
+          seeks: 1,
+          dupsTested: 0,
+          dupsDropped: 0
+        }
+      }
+    }
+  },
+  queryShapeHash: '9C9DD64CB56154FBBFA62AC48CCC50827A8A8734AB042BC51BAF09947C1F11D4',
+  command: {
+    find: 'reviews',
+    filter: {
+      business_id: 'UCMSWPqzXjd7QHq7v8PJjQ'
+    },
+    sort: {
+      date: -1,
+      _id: 1
+    },
+    hint: 'idx_reviews_business_date',
+    skip: 0,
+    limit: 5,
+    '$db': 'yelp_tucson'
+  },
+  serverInfo: {
+    host: '82964a4a74ab',
+    port: 27017,
+    version: '8.0.16',
+    gitVersion: 'ba70b6a13fda907977110bf46e6c8137f5de48f6'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1
+}

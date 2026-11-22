@@ -1,0 +1,5 @@
+﻿Avec index : 649
+Sans index : 649
+Seulement avec index : []
+Seulement sans index : []
+Resultats identiques : True
