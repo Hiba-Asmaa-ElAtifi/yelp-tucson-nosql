@@ -1,0 +1,3 @@
+strategie,median_ms,p95_ms,new_count,new_average,identical_results
+recalcul_complet,2.306518,2.519061,2224,4.392086330935,True
+incremental,0.000164,0.000317,2224,4.392086330935,True

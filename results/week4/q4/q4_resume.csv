@@ -1,0 +1,9 @@
+page,index,median_ms,p95_ms,n_returned,identical_results
+1,ancien_index,9.413,27.552,5,True
+1,nouvel_index,0.797,1.008,5,True
+10,ancien_index,6.942,7.901,5,True
+10,nouvel_index,0.965,1.286,5,True
+100,ancien_index,10.199,12.278,5,True
+100,nouvel_index,1.441,2.1,5,True
+400,ancien_index,10.336,13.163,5,True
+400,nouvel_index,2.371,3.385,5,True

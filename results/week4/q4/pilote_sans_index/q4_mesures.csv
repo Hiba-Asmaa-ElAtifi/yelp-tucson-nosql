@@ -1,0 +1,5 @@
+page,index,execution,duration_ms,n_returned
+1,sans_index_compose,1,1326.701,5
+1,sans_index_compose,2,1350.246,5
+1,nouvel_index,1,1.343,5
+1,nouvel_index,2,0.879,5
